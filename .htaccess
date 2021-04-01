@@ -1,0 +1,8 @@
+# Activation du module de réécriture d'URL :
+RewriteEngine on
+
+# Règles de réécriture d'URL :
+RewriteRule ^home$ ./index.php
+RewriteRule ^add$ ./add_mattress.php
+RewriteRule ^edit$ ./promotion.php
+RewriteRule ^delete$ ./delete.php
